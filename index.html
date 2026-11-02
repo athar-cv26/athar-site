@@ -34,14 +34,14 @@
   --accent: #DA915F;
 }
 * { box-sizing: border-box; margin: 0; }
-html { background: var(--bg); }
+html { background: var(--bg) linear-gradient(var(--bg), var(--bg)) fixed; }
 body {
   min-height: 100vh;
   min-height: 100svh;
   display: grid;
   place-items: center;
   padding: 2rem 1rem;
-  background: var(--bg);
+  background: transparent;
   color: var(--text);
   font-family: "DM Serif Display", "Amiri", Georgia, "Times New Roman", serif;
   font-weight: 400;
